@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+
+   /* div{
+    border:2px solid black;
+   }  */
+
+   .card{
+    background-color: aqua;
+    border:2px solid black;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:400px;
+    width:700px;
+    margin:50px auto;
+    padding:20px;
+
+    
+   
+   } 
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width:50%;
+}
+
+button{
+    background-color: #05445E;
+    padding: 10px;
+    width:50%;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
+img{
+    
+    border-radius: 50%;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.page{
+    margin: auto;
+    width:700px;
+    text-align: center;
+    
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="card">
+
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrwjFTFJ_Rrrj4G1xCKoGSIQcZg_gG9EMCmNhYe1awuu6tntT0LdWjSJcWtAtSDQIOps&usqp=CAU" alt="" height="250" width="250">
+            <button><a href="">Download CV</a></button>
+        </div>
+
+        <div class="right">
+            <h1>Vinayak Gupta</h1>
+            <h3>Web Developer | Python Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate magni molestiae harum aspernatur exercitationem voluptatibus tempore iusto beatae amet commodi?</p>
+            <div class="icon">
+                <img src="https://2235233.fs1.hubspotusercontent-na1.net/hubfs/2235233/blog-import/2022/07-22-Jul/every-social-media-logo-and-icon-in-one-handy-place-instagram.png" alt="" height="50" width="50">
+                <img src="https://f.hubspotusercontent30.net/hubfs/2235233/blog-import/2020/20-08-Aug/sm-icons-facebook-logo.png" alt="" height="50" width="50">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4lkBRF_dIUzNvmxEhGSafewyKJbych5ogQ&s" alt="" height="50" width="50">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJO2SeTQHtzL024EkApdOOoQ1QlTxBsqKCSQ&s" alt="" height="50" width="50">
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <button class="nav"><a href="card2.html">Next Card</a></button>
+      
+    </div>
+
+</body>
+</html>
